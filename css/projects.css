@@ -1,0 +1,39 @@
+.ProjectTitle {
+    margin-top: 17px;
+    color: lightcoral;
+}
+
+.ProjectItem {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ProjectDescription { 
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding-right: 10px;
+}
+
+.ProjectItem img {
+    flex: 0 0 20%;
+    max-width: 20%;
+    float: right;
+    padding-left: 10px;
+}
+
+.ProjectTitle > h3 {
+    display: inline;
+
+}
+
+.ProjectTitle > h4, h5 {
+    display: inline;
+    color: lightcoral;
+}
+
+.flex-wrapper { 
+    display: flex;
+    min-height: 35vh;
+    flex-direction: column;
+    justify-content: space-between;
+}

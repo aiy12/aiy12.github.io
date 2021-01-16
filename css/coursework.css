@@ -1,0 +1,19 @@
+.courses > h3 {
+    color: lightcoral;
+}
+
+.course-line {
+    display: inline;
+    white-space: nowrap;
+}
+
+.course-line img {
+    float: right;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 35vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
